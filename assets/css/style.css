@@ -1,0 +1,194 @@
+body{
+   padding:0;
+   margin:0;
+   font-family:Arial, Helvetica, sans-serif, 'helvetica neue';
+   background-image: url("../images/connectwork.png");
+}
+
+section{
+  width:960px;
+  display: block;
+  background-color:#ffffff;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1{
+    color:teal;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.wrapper{
+    width:100%;
+   /* height:auto;*/
+    display: block;
+    background-color:#ffffff;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom:10px;
+    /*padding-top:0%;*/
+    margin-top: 0%;
+    height:20px;
+}
+
+#headerLeft{
+    position: absolute;
+    left:19%;
+    width:30%;
+    background-color:white;
+}
+
+#headerRight{
+    height:30px;
+    right:0%;
+    position: absolute;
+    width:30%;
+    background-color:white;
+    text-align:left;
+}
+
+span{
+    background-color:teal;
+    text-align:center;
+    padding:6px;
+    top:50%;
+    position:absolute;
+}
+
+footer{
+    width:auto;
+    margin-left:auto;
+    margin-right:auto;
+    background-color:#666666;
+    border-top-color:teal;
+    border-top-style: solid;
+    text-align:center;
+    
+}
+
+input[type=text],input[type=email], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    margin-left:5%;
+    margin-right:5%;
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+
+input[type=submit]{
+     background-color: teal;
+     color:white;
+     margin-left:5%;
+     margin-right:5%;
+}
+
+.contain{
+    width:auto;
+    display: block;
+  /*  background-color:orange; */
+    margin-left: 10px;
+    margin-right: 10px;
+    overflow:auto;
+    /*margin-top: 0%;
+    */float: left;
+}
+
+.contain2{
+    width:auto;
+    /*display:inline-block;*/
+   /* background-color:blue;*/
+    margin-left: 10px;
+    margin-right: 10px;
+    overflow:auto;
+    text-align:right;
+    float:left;
+
+}
+
+.portfolio1{
+float:left;
+margin-bottom:20px;
+}
+
+.portfolio2{
+float:left;
+clear:left;
+margin-bottom:20px;
+}
+
+.portfolio3{
+float:left;
+clear:left;
+margin-bottom:20px;
+}
+
+.portfolio4{
+float:right;
+clear:right;
+margin-bottom:20px;
+}
+
+.portfolio5{
+ float:right;
+ clear:right;
+ margin-bottom:20px;
+}
+
+#tall{
+    /* width:75%; */
+    height:100%;
+    /* overflow:hidden; */
+}
+
+form{
+    width:85%;
+}
+
+.setup{
+    margin-left:5%;
+}
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height:5%;
+}
+@media (max-width:1600px) {
+    #tall{
+        width:80%;
+        overflow:hidden;
+    }
+}
+
+@media (max-width:768px) {
+
+    #tall{
+        width:80%;
+    }
+
+}
+
+@media (max-width:640px) {
+
+    #tall{
+        width:45%;
+    }
+    section{
+        height:80%;
+    }
+    #headerLeft{
+    position: relative;
+    left:40%;
+    }
+    #headerRight{
+    position:relative;
+    left:0%;
+    top:30px;
+    width:100%;
+    text-align: center;
+    }
+}
